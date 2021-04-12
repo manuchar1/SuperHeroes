@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navHomeFragment">
+
+    <fragment
+        android:id="@+id/navHomeFragment"
+        android:name="com.school_project.superHeroesApp.ui.navHome.NavHomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.school_project.superHeroesApp.ui.registration.RegistrationFragment"
+        android:label="RegistrationFragment" />
+
+    <fragment
+        android:id="@+id/favorites"
+        android:name="com.school_project.superHeroesApp.ui.cardDetails.CardDetailsFragment"
+        android:label="favorites">
+        <argument
+            android:name="data"
+            app:argType="com.school_project.superHeroesApp.data.models.superhero.Content"/>
+
+    </fragment>
+
+    <action
+        android:id="@+id/login"
+        app:destination="@+id/loginFragment"
+        app:enterAnim="@animator/slide_in_bottom"
+        app:popEnterAnim="@animator/slide_in_left"
+        app:popExitAnim="@animator/slide_out_bottom" />
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.school_project.superHeroesApp.ui.login.LoginFragment"
+        android:label="LoginFragment">
+
+        <action
+            android:id="@+id/form_login_to_registration"
+            app:destination="@id/registrationFragment"
+            app:enterAnim="@animator/slide_in_right"
+            app:exitAnim="@animator/slide_out_left"
+            app:popEnterAnim="@animator/slide_in_left"
+            app:popExitAnim="@animator/slide_out_right" />
+
+    </fragment>
+    <action
+        android:id="@+id/action_global_cardDetailsFragment"
+        app:destination="@id/favorites"/>
+</navigation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <dimen name="loading_progress_bar_dimen">44dp</dimen>
+    <dimen name="search_bar_width">344dp</dimen>
+    <dimen name="search_top_margin">19dp</dimen>
+    <dimen name="nav_bar_height">64dp</dimen>
+    <dimen name="heroName_name_dimen">40sp</dimen>
+    <dimen name="live_width">370dp</dimen>
+    <dimen name="card_list_hor_inst">1dp</dimen>
+    <dimen name="card_list_hor_space">1dp</dimen>
+    <dimen name="card_list_ver_inst">1dp</dimen>
+    <dimen name="card_list_vrt_space">3dp</dimen>
+
+    <dimen name="home_nav_bar_height">64dp</dimen>
+    <dimen name="search_bar_height">41dp</dimen>
+</resources>

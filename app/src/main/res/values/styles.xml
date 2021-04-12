@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="input_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColorHint">@color/black</item>
+    </style>
+
+    <style name="Circular">
+        <item name="cornerSize" >50%</item>
+    </style>
+
+
+    <style name="smallText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

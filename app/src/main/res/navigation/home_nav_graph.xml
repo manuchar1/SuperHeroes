@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_nav_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/search"
+        android:name="com.school_project.superHeroesApp.ui.search.SearchFragment"
+        android:label="SearchFragment" />
+    <fragment
+        android:id="@+id/home"
+        android:name="com.school_project.superHeroesApp.ui.home.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.school_project.superHeroesApp.ui.profile.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/favorites"
+        android:name="com.school_project.superHeroesApp.ui.savedCards.FavoritesFragment"
+        android:label="SavedCardFragment" />
+    <action
+        android:id="@+id/show_home"
+        app:destination="@id/home"
+        app:popUpTo="@id/home_nav_graph" />
+    <action
+        android:id="@+id/show_profile"
+        app:destination="@id/profile"
+        app:popUpTo="@id/home_nav_graph" />
+    <action
+        android:id="@+id/show_search"
+        app:destination="@id/search"
+        app:popUpTo="@id/home_nav_graph" />
+    <action
+        android:id="@+id/show_saved_cards"
+        app:destination="@id/favorites"
+        app:popUpTo="@id/home_nav_graph" />
+</navigation>

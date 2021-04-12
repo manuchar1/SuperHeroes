@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="black">#000000</color>
+    <color name="TextColor_Black">#000000</color>
+    <color name="blue">#395AFF</color>
+    <color name="LoginBtn_Blue">#395AFF</color>
+
+
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_color">#E9E9E9</color>
+
+    <color name="Splash_background_for_gradient">#9F9F9F</color>
+    <color name="Splash_background_for_gradient2">#E9E9E9</color>
+
+    <color name="bottom_navigation_color">#9F9F9F</color>
+    <color name="Borders_and_singUp_Gray">#9F9F9F</color>
+    <color name="borders_for_screen_separation">#DCDCDC</color>
+    <color name="grey_darker">#A5A5A5</color>
+    <color name="grey_lighter_than_dark_gray">#9F9F9F</color>
+
+
+</resources>
